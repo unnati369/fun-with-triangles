@@ -13,7 +13,7 @@ for(let value of formResults.values()){
     }
     index = index+1; 
 }
-outpurEl.innerText = "Your score is: " + score;
+outputEl.innerText = "Your score is: " + score;
 
 }
 

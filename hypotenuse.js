@@ -14,4 +14,4 @@ function calculateHypotenuse() {
 
 }
 
-hypotenuseBtn.addEventListener("click", calculateHypotenuse)
+hypotenuse.addEventListener("click", calculateHypotenuse)
