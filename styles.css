@@ -97,8 +97,33 @@ h1 {
     width: 10rem;
     margin-left: 5rem;
 }
-.question-container{
+.radio-ow{
     margin-top: -15px;
     margin-left: 5rem;
     margin-bottom: 2rem;
+}
+.quiz-form{
+    text-align: left;
+}
+.quiz-form label.question{
+    display: block;
+}
+.radio input{
+cursor: pointer;
+padding: 0.5rem 0.5rem;
+display: inline-block;
+}
+.radio{
+    padding: 0.5rem 1rem;
+    white-space: normal;
+}
+.radio label{
+    cursor: pointer;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    display: inline-block;
+}
+.ow{
+    background-color: var(--off-white);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
